@@ -28,5 +28,8 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
+	// https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava
+	compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.0.0-RC1'
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
